@@ -23,6 +23,12 @@ namespace ProyectoYuyitos
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        public void holaMundo()
+        {
+            MessageBox.Show("Hola mundo");
         }
     }
 }
